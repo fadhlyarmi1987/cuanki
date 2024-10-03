@@ -64,12 +64,3 @@ if($statusUpload == 0){
  
 }
     echo $message;
-
-// $message = "";
-// }
-  // Check if the username already exists
-    // $check_query = mysqli_query($conn, "SELECT * FROM tb_user WHERE username = '$username'");
-    // if (mysqli_num_rows($check_query) > 0) {
-    //     $message = '<script>alert("Username already exists. Please choose a different one.")</script>';
-    // } else {
-    // Insert new user if username is unique
