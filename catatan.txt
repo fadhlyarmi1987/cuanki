@@ -1,0 +1,27 @@
+level 0 = pelayan / customer
+(
+-Daftar Menu
+-Pesanan
+
+)
+
+level 1 = kasir
+(
+-Daftar Menu
+-Pesanan
+-User
+-Report
+)
+
+level 2 = dapur
+(
+-Pesanan
+)
+
+level 3 = admin/owner 
+(
+-Daftar Menu
+-Pesanan
+-User
+-Report
+)

@@ -1,0 +1,68 @@
+.nav-pills {
+    --bs-nav-pills-link-active-bg: #FE0303;
+}
+.about-section {
+    border: 1px solid #ff0000;
+    /* Warna border */
+    border-radius: 8px;
+    /* Sudut yang melengkung */
+    padding: 20px;
+    background-color: #f9f9f9;
+    /* Warna latar yang lembut */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Efek bayangan */
+    transition: transform 0.3s;
+}
+
+.about-section:hover {
+    transform: translateY(-10px);
+    /* Efek hover untuk .about-section */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    /* Bayangan lebih kuat saat hover */
+}
+
+.about-title {
+    color: #ff0000;
+    font-weight: bold;
+}
+
+/* Styling untuk card visi dan misi */
+.vision-card,
+.mission-card {
+    border: 1px solid #ff0000;
+    border-radius: 8px;
+    background-color: #ececec;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+    transition: transform 0.3s;
+    /* Tambahkan transisi */
+}
+
+.vision-card:hover,
+.mission-card:hover {
+    transform: translateY(-10px);
+    /* Efek hover untuk visi dan misi */
+}
+
+.event-carousel .card:hover img {
+    transform: scale(1.05) translateY(-10px);
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.vision-title,
+.mission-title {
+    color: #ff0000;
+    font-weight: bold;
+}
+
+/* Semua card dengan efek hover */
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
